@@ -4,6 +4,17 @@
 /node_modules
 /.pnp
 .pnp.js
+/pnpm-lock.yaml
+
+# secrets
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# prisma
+/prisma/migrations
+/prisma/dev.db
 
 # testing
 /coverage
@@ -33,3 +44,4 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+.gitignore
